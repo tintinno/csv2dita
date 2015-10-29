@@ -30,7 +30,7 @@ BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-
 ## Usage
 
 ```
-C:\Users\tintinno>python csv2dita.py -h
+C:\Users\tintinno\csv2dita>python csv2dita.py -h
 usage: csv2dita.py [-h] [-i CSV] [-o DITA] [-t {normal,simple}] [--header]
 
 Convert CSV files to DITA tables.
@@ -50,5 +50,5 @@ using the first line of the CSV as the table header, and saves it as
 `start.txt`. 
 
 ```
-C:\Users\tintinno>python csv2dita.py -i start.csv -o start.txt -t normal --header
+C:\Users\tintinno\csv2dita>python csv2dita.py -i start.csv -o start.txt -t normal --header
 ```
