@@ -10,17 +10,10 @@ After running, copy and paste the output into your favorite DITA editor.
 
 ## Setup
 
-Before running the script: 
-
 1. [Install Python 2.7](https://www.python.org/download/releases/2.7.8/)
-
-  * Windows users should make sure they select the option to add python.exe 
-	to their PATH. 
 
 2. [Install
 BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup).
-  * (Linux) `user@host: sudo pip install beautifulsoup4`
-  * (Windows) `C:\Python27\Scripts>pip install beautifulsoup4`
 
 3. `git clone https://github.com/tintinno/csv2dita`
 
