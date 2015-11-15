@@ -1,10 +1,9 @@
 # csv2dita
 Convert CSV files to DITA tables
 
-The `-i`, `-o`, and `-t` options are required. `-t` accepts as an
-argument either `simple` for simple tables or `normal` for normal tables. 
-Use the `--header` option to convert the first line of the CSV into the
-table header. Note, however, that no values may have internal commas.
+`-t` accepts either `simple` for simple tables or `normal` for normal
+tables. Use the `--header` option to convert the first line of the CSV into
+the table header. Note, however, that no values may have internal commas.
 
 After running, copy and paste the output into your favorite DITA editor.
 
